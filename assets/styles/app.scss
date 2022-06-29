@@ -27,6 +27,11 @@ body {
   height: 100vh;
 }
 
+.details-page {
+  width: 50%;
+  margin: auto;
+}
+
 .checkout-total {
   background: #eee;
   display: flex;
@@ -55,11 +60,11 @@ div#form {
 }
 
 footer {
-  background: #e34545;
+  background: #5a87ea;
   padding: $baseline;
   color: #fff;
-  display: flex;
   text-align: center;
+  width: 100vw;
 
   hr {
     display: none;
@@ -89,7 +94,7 @@ form {
 }
 
 header {
-  background: #e34545;
+  background: #5a87ea;
   font-size: 300%;
   padding: $baseline;
   color: #fff;
